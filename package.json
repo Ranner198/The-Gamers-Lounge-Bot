@@ -9,7 +9,12 @@
   "author": "Ran Crump",
   "license": "ISC",
   "dependencies": {
+    "ajax-request": "^1.2.3",
     "chalk-animation": "^1.6.0",
-    "discord.js": "^11.4.2"
+    "cheerio": "^1.0.0-rc.2",
+    "discord.js": "^11.4.2",
+    "follow-redirects": "^1.7.0",
+    "printstack": "^1.0.7",
+    "request": "^2.88.0"
   }
 }

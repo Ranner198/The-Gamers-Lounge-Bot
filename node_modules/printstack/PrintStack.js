@@ -1,0 +1,1 @@
+exports.PrintStack=function(e){var n,r=[],i=[];try{throw new Error("")}catch(e){n=e.stack||""}if(-1!=n.includes("message")){for(var o=n.indexOf("message"),s=n.indexOf(":",o),t=n.indexOf(":",s+1),a=o+9;a<s;a++)i.push(n[a]);for(a=s+1;a<t;a++)r.push(n[a]);console.log("File: "+i.join("")+".\nLine Number: "+r.join("")+".\n"+e)}};
